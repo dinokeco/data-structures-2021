@@ -1,5 +1,10 @@
 package ba.edu.ibu.ds;
 
+/**
+ * Basic Node class
+ * @author Dino Keco
+ *
+ */
 public class Node {
 
 	private String item;
