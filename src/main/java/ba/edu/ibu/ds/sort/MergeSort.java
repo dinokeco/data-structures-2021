@@ -38,7 +38,7 @@ public class MergeSort {
 	private static void sort(Comparable[] a, Comparable[] aux, int lo, int hi, Comparator comp) {
 		if (hi <= lo)
 			return;
-
+		
 		int mid = lo + (hi - lo) / 2;
 
 		sort(a, aux, lo, mid, comp);
